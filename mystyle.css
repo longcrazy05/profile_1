@@ -1,0 +1,137 @@
+header{
+    width: 280px;
+    height: 100vh;
+}
+
+.social__icon i{
+    font-size: 32px;
+    padding-bottom: 1.2px;
+}
+.social__icon .bi-youtube{
+    color: red;
+}
+
+header .name{
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+header .info i,
+header .info span{
+    font-size: 22px;
+}
+
+header .info__item:hover{
+    background-color: rgba(0, 255, 255, 0.652);
+    text-shadow: 1px 0 0 currentColor;
+    font-style: italic;
+}
+
+header .profile img{
+    object-fit: cover;
+}
+ul{
+    padding-left: 0;
+}
+
+/* MAIN */
+main{
+    padding-left: 268px;
+}
+
+main #about{
+    width: 100%;
+}
+
+.intro{
+    background-image: url(./img/taoanhdep_nang_cap_anh_67792.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+ .line{
+    width: 80px;
+    height: 4px;
+    background-color: aqua;
+}
+
+main .row img{
+    width: 100%;
+    height: auto;
+}
+
+.about__item i{
+    color: blue;
+}
+
+.about__number i{
+    font-size: 44px;
+    color: rgb(0, 119, 255);
+}
+.about__number strong{
+    font-size: 48px;
+}
+
+.about__number--main{
+    font-weight: 700;
+    color: darkgray;
+}
+
+main .skill{
+    background-color: rgba(127, 255, 212, 0.21);
+}
+
+.resume__item{
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline{
+    position: absolute;
+    width: 3px;
+    height: calc(100% - 8px);
+    background-color: cyan;
+    top: 18px;
+    left: -2.2px;
+}
+.dot{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid cyan;
+    background-color: white;
+    left: -10.5px;
+    top: 8px;
+}
+
+.resume p{
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.pro_exp ul{
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+/* services */
+.service__item i{
+    font-size: 32px;
+    padding-bottom: 3px;
+    padding-left: 1.8px;
+}
+
+.service__item strong{
+    font-style: italic;
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+.service__item--icon{
+    width: 64px;
+    height: 64px;
+    background-color: aqua;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 50%;
+}
