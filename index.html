@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="mystyle.css" />
   </head>
   <body>
-    <header class="bg-dark fixed-top">
+    <header class="bg-dark fixed-top d-none d-lg-block">
       <div class="profile d-flex flex-column align-items-center">
         <div class="mt-4 border border-primary rounded-circle">
           <img
@@ -573,7 +573,9 @@
           <div class="row gx-4 mt-5">
             <div class="col-lg-4 col-md-6">
               <div class="service__item d-flex mb-3">
-                <div class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0  me-2">
+                <div
+                  class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0 me-2"
+                >
                   <i class="bi bi-envelope-open"></i>
                 </div>
                 <div class="border border-2 border-info rounded p-2">
@@ -584,11 +586,12 @@
                   </p>
                 </div>
               </div>
-
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="service__item d-flex mb-3">
-                <div class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0  me-2">
+                <div
+                  class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0 me-2"
+                >
                   <i class="bi bi-bar-chart"></i>
                 </div>
                 <div class="border border-2 border-info rounded p-2">
@@ -599,11 +602,12 @@
                   </p>
                 </div>
               </div>
-
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="service__item d-flex mb-3">
-                <div class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0  me-2">
+                <div
+                  class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0 me-2"
+                >
                   <i class="bi bi-card-checklist"></i>
                 </div>
                 <div class="border border-2 border-info rounded p-2">
@@ -614,59 +618,210 @@
                   </p>
                 </div>
               </div>
-
             </div>
-            
-              <div class="col-lg-4 col-md-6">
-                <div class="service__item d-flex mb-3">
-                  <div class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0  me-2">
-                    <i class="bi bi-binoculars"></i>
-                  </div>
-                  <div class="border border-2 border-info rounded p-2">
-                    <strong>Lorem Ipsum</strong>
-                    <p>
-                      Voluptatum deleniti atque corrupti quos dolores et quas
-                      molestias excepturi sint occaecati cupiditate non provident
-                    </p>
-                  </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service__item d-flex mb-3">
+                <div
+                  class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0 me-2"
+                >
+                  <i class="bi bi-binoculars"></i>
                 </div>
-  
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="service__item d-flex mb-3">
-                  <div class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0  me-2">
-                    <i class="bi bi-sun"></i>
-                  </div>
-                  <div class="border border-2 border-info rounded p-2">
-                    <strong>Lorem Ipsum</strong>
-                    <p>
-                      Voluptatum deleniti atque corrupti quos dolores et quas
-                      molestias excepturi sint occaecati cupiditate non provident
-                    </p>
-                  </div>
+                <div class="border border-2 border-info rounded p-2">
+                  <strong>Lorem Ipsum</strong>
+                  <p>
+                    Voluptatum deleniti atque corrupti quos dolores et quas
+                    molestias excepturi sint occaecati cupiditate non provident
+                  </p>
                 </div>
-  
               </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="service__item d-flex">
-                  <div class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0  me-2">
-                    <i class="bi bi-calendar-week"></i>
-                  </div>
-                  <div class="border border-2 border-info rounded p-2">
-                    <strong>Lorem Ipsum</strong>
-                    <p>
-                      Voluptatum deleniti atque corrupti quos dolores et quas
-                      molestias excepturi sint occaecati cupiditate non provident
-                    </p>
-                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="service__item d-flex mb-3">
+                <div
+                  class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0 me-2"
+                >
+                  <i class="bi bi-sun"></i>
                 </div>
-  
+                <div class="border border-2 border-info rounded p-2">
+                  <strong>Lorem Ipsum</strong>
+                  <p>
+                    Voluptatum deleniti atque corrupti quos dolores et quas
+                    molestias excepturi sint occaecati cupiditate non provident
+                  </p>
+                </div>
               </div>
-            
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="service__item d-flex">
+                <div
+                  class="service__item--icon d-flex justify-content-center align-items-center flex-shrink-0 me-2"
+                >
+                  <i class="bi bi-calendar-week"></i>
+                </div>
+                <div class="border border-2 border-info rounded p-2">
+                  <strong>Lorem Ipsum</strong>
+                  <p>
+                    Voluptatum deleniti atque corrupti quos dolores et quas
+                    molestias excepturi sint occaecati cupiditate non provident
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
     </main>
+    <!-- offcanvas -->
+    <nav class="navbar navbar-dark fixed-top d-lg-none">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler btn btn-sm p-1"
+          style="background-color: rgba(44, 44, 44, 0.629);"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span
+            class="navbar-toggler-icon"
+            style="width: 25px; height: 25px"
+          ></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              Information
+            </h5> -->
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body d-flex justify-content-center">
+            <header class="bg-dark">
+              <div class="profile d-flex flex-column align-items-center">
+                <div class="border border-primary rounded-circle">
+                  <img
+                    src="./img/taoanhdep_nang_cap_anh_67792.jpeg"
+                    alt=""
+                    style="width: 120px; height: 120px"
+                    class="rounded-circle img-thumbnail"
+                  />
+                </div>
+                <div class="mt-2">
+                  <span class="name">Long PTD</span>
+                </div>
+                <div class="social d-flex align-items-center mt-2">
+                  <div class="social__icon d-flex align-items-center">
+                    <a
+                      href="https://www.facebook.com/long.1015110.cz"
+                      target="_blank"
+                    >
+                      <i
+                        class="bi bi-facebook me-3 border border-primary rounded-pill px-3 bg-white"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="social__icon">
+                    <a href="https://youtube.com" target="_blank">
+                      <i
+                        class="bi bi-youtube me-3 border border-primary rounded-pill px-3 bg-white"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="social__icon">
+                    <a href="https://messenger.com" target="_blank">
+                      <i
+                        class="bi bi-messenger border border-primary rounded-pill px-3 bg-white"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="info mt-4">
+                <ul class="text-decoration-none d-flex flex-column">
+                  <li class="list-unstyled">
+                    <div class="info__item d-flex">
+                      <a
+                        href="#home"
+                        class="text-decoration-none active w-100 ps-3"
+                      >
+                        <i
+                          class="fa-solid fa-house-chimney-user me-1"
+                          style="color: #f7f7f7"
+                        ></i>
+                        <span class="text-white">Home</span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="mt-4 list-unstyled">
+                    <div class="info__item d-flex">
+                      <a
+                        href="#about"
+                        class="text-decoration-none w-100 ps-3"
+                        style="color: #f7f7f7"
+                      >
+                        <i class="fa-solid fa-address-card me-1"></i>
+                        <span class="text-white">About</span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="mt-4 list-unstyled">
+                    <div class="info__item d-flex">
+                      <a
+                        href="#resume"
+                        class="text-decoration-none w-100 ps-3"
+                        style="color: #f7f7f7"
+                      >
+                        <i class="fa-solid fa-file me-1"></i>
+                        <span class="text-white">Resume</span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="mt-4 list-unstyled">
+                    <div class="info__item d-flex">
+                      <a
+                        href="#service"
+                        class="text-decoration-none w-100 ps-3"
+                        style="color: #f7f7f7"
+                      >
+                        <i class="bi bi-menu-button me-1"></i>
+                        <span class="text-white">Service</span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="mt-4 list-unstyled">
+                    <div class="info__item d-flex">
+                      <a
+                        href="#contact"
+                        class="text-decoration-none w-100 ps-3"
+                        style="color: #f7f7f7"
+                      >
+                        <i class="bi bi-envelope-at me-1"></i>
+                        <span class="text-white">Contact</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </header>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- JS bt -->
     <script

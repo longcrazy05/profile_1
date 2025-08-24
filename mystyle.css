@@ -37,7 +37,9 @@ ul{
 
 /* MAIN */
 main{
-    padding-left: 268px;
+    @media(min-width: 992px){
+        padding-left: 268px;
+    }
 }
 
 main #about{
@@ -135,3 +137,5 @@ main .skill{
     border: 2px solid rgb(0, 110, 255);
     border-radius: 50%;
 }
+
+/* offcanvas */
