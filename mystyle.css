@@ -6,6 +6,7 @@ header{
 .social__icon i{
     font-size: 32px;
     padding-bottom: 1.2px;
+    line-height: 48px;
 }
 .social__icon .bi-youtube{
     color: red;
@@ -22,11 +23,15 @@ header .info span{
     font-size: 22px;
 }
 
-header .info__item:hover{
+
+header .info__item:hover,
+header .info__item:active{
     background-color: rgba(0, 255, 255, 0.652);
     text-shadow: 1px 0 0 currentColor;
     font-style: italic;
+
 }
+
 
 header .profile img{
     object-fit: cover;
@@ -139,3 +144,17 @@ main .skill{
 }
 
 /* offcanvas */
+.head-offcanvas .social__icon i{
+    font-size: 32px;
+}
+
+@media (max-width: 992px){
+    html{
+        scroll-behavior: smooth;
+    }
+}
+
+.offcanvas,
+header .info__item:active {
+  transition: transform 0.2s ease-in-out !important;
+}
