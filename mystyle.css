@@ -11,7 +11,14 @@ header{
 .social__icon .bi-youtube{
     color: red;
 }
+.social__icon .bi-facebook,
+.social__icon .bi-messenger{
+    color: rgb(8, 102, 255);
+}
 
+.social__icon i:hover{
+    background-color: rgb(127, 255, 212) !important;
+}
 header .name{
     color: aliceblue;
     font-size: 28px;
