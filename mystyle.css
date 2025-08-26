@@ -158,3 +158,41 @@ main .skill{
 header .info__item:active {
   transition: transform 0.2s ease-in-out !important;
 }
+
+/* contact */
+.contact__item p{
+    margin: 0;
+}
+.contact__item i{
+    font-size: 24px;
+}
+
+.contact__item strong{
+    font-style: italic;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+.contact__item--icon{
+    width: 48px;
+    height: 48px;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 50%;
+}
+.contact__item:hover .contact__item--icon{
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+.contact .card{
+    padding-bottom: 3.18px;
+}
+
+/* ==== footer ===== */
+@media(min-width: 992px){
+    footer{
+        padding-left: 280px;
+    }
+}
+footer{
+    background-color: aliceblue;
+}
